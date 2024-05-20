@@ -18,8 +18,8 @@ const GptSearchBar = () => {
 
 const selectedLang=useSelector(store=>store.language.choosedLanguage)
   return (
-    <div className='pt-[10%] flex justify-center'>
-        <form className='bg-black w-1/2 grid grid-cols-12 rounded-sm' onSubmit={(e)=>e.preventDefault()}>
+    <div className='pt-[50%] md:pt-[15%] flex justify-center '>
+        <form className='bg-black w-full md:w-1/2 grid grid-cols-12 rounded-sm' onSubmit={(e)=>e.preventDefault()}>
         <input ref={searchText} type='text' placeholder={lang[selectedLang].gptSearchPlaceholder} className='p-4 m-4 col-span-9 rounded-sm' />
         <button className='bg-red-700 rounded-lg px-2 py-2 my-4 mx-3 col-span-3 text-xl hover:opacity-80' onClick={handlesearch} >{lang[selectedLang].search}</button>
         </form>

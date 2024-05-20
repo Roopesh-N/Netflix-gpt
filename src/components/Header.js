@@ -47,8 +47,8 @@ const handlelanguageChange=(e)=>{
 },[]);
 
   return (
-    <div className='absolute w-full bg-gradient-to-b from-black z-10 flex justify-between'> 
-          <img className='w-44 md:px-5 py-5 hover:cursor-pointer' src={NetflixLogo} alt='logo'/>
+    <div className='absolute w-full bg-gradient-to-b from-black z-10 flex flex-col md:flex-row justify-center md:justify-between'> 
+          <img className='w-44 mx-auto md:mx-0 px-5 py-3 hover:cursor-pointer' src={NetflixLogo} alt='logo'/>
     {(user!=null)&&  
           <div className='flex p-2'>
             {(doSearch)?
