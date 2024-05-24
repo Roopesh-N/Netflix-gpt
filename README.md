@@ -3,7 +3,7 @@
 Netflix-GPT is a responsive movie application developed using React and Redux, styled with Tailwind CSS, and featuring Firebase integration for user authentication. It leverages the Chat-GPT API to provide users with intelligent movie recommendations based on their search queries and preferences.
 
 ## Table of Contents
-- [Features](#Authentication,#authorization,#SearchFeature, #ChatGpt-Recommendations)
+- [Features](#features)
 - [Technologies Used](#technologies-used)
 - [Getting Started](#getting-started)
 - [Installation](#installation)
