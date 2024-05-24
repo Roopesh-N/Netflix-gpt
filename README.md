@@ -37,8 +37,8 @@ To get a local copy up and running follow these simple steps.
    cd netflix-gpt
 
 ### Environment Variables
-REACT_APP_OPENAI_KEY=your-openai-key
-REACT_APP_FIREBASE_KEY=your-firebase-key
-REACT_APP_TMDB_KEY=your-tmdb-key
+- REACT_APP_OPENAI_KEY=your-openai-key
+- REACT_APP_FIREBASE_KEY=your-firebase-key
+- REACT_APP_TMDB_KEY=your-tmdb-key
 
 
