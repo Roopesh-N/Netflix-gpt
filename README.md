@@ -8,9 +8,6 @@ Netflix-GPT is a responsive movie application developed using React and Redux, s
 - [Getting Started](#getting-started)
 - [Installation](#installation)
 - [Environment Variables](#environment-variables)
-- [Usage](#usage)
-- [Contributing](#contributing)
-- [License](#license)
 
 ## Features
 - **Responsive Design**: Adaptable to various screen sizes for a seamless user experience on both desktop and mobile devices.
@@ -40,6 +37,8 @@ To get a local copy up and running follow these simple steps.
    cd netflix-gpt
 
 ### Environment Variables
--REACT_APP_FIREBASE_API_KEY=your-firebase-api-key
+REACT_APP_OPENAI_KEY=your-openai-key
+REACT_APP_FIREBASE_KEY=your-firebase-key
+REACT_APP_TMDB_KEY=your-tmdb-key
 
 
