@@ -39,4 +39,7 @@ To get a local copy up and running follow these simple steps.
    git clone https://github.com/yourusername/netflix-gpt.git
    cd netflix-gpt
 
+### Environment Variables
+-REACT_APP_FIREBASE_API_KEY=your-firebase-api-key
+
 
